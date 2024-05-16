@@ -1,0 +1,817 @@
+.main {
+  /border: 2px solid transparent;
+  border: 0.1px solid white;
+  height: 5220px;
+  width: 100.8%;
+  position: relative;
+  left: -8px;
+  top: -8px;
+}
+
+.a {
+  border: 2px solid black;
+  background: black;
+  height: 40px;
+  width: 100%;
+  margin-left: -2px;
+  position: absolute;
+}
+.instalogo {
+  height: 30px;
+  /background: white;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 5px;
+
+  /*Colonna MT */
+}
+
+.instatext {
+  font-family: Tahoma;
+  color: white;
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.fblogo {
+  height: 25px;
+  /background: white;
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 8px;
+}
+
+.fbtext {
+  font-family: Tahoma;
+  color: white;
+  font-size: 15px;
+  margin-left: 15.5%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.headtext {
+  font-family: Tahoma;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  margin-left: 24%;
+  margin-top: 10px;
+  padding-left: 190px;
+}
+
+.usdtext {
+  font-family: Tahoma;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  margin-left: 24%;
+  margin-top: 10px;
+  padding-left: 1050px;
+}
+
+.bottomerrowwhite {
+  position: absolute;
+  height: 5px;
+  margin-top: 17px;
+  padding-left: 1455px;
+}
+
+.b {
+  border: 2px solid white;
+  background: white;
+  height: 130px;
+  width: 100%;
+  margin-left: -2px;
+  margin-top: 43px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#border1:focus {
+  outline: 0;
+}
+
+input[type="textbox"] {
+  font-family: Tahoma;
+  font-size: 17px;
+  width: 230px;
+  margin-left: 50px;
+  margin-top: 12px;
+  padding: 12px 0px;
+  border: none;
+  color: gray;
+  border-bottom: 2px solid lightgray;
+  /position: absolute;
+}
+.shopnow:hover {
+  background-color: white;
+  color: green;
+}
+.search {
+  position: absolute;
+  height: 18px;
+  margin-left: -19px;
+  margin-top: 29px;
+}
+/*.headingtext{
+			font-family:Tahoma;
+			position:absolute;
+			margin-left:690px;
+			
+		}*/
+
+.minigearlogo {
+  position: absolute;
+  height: 55px;
+  margin-left: 335px;
+  margin-top: 13px;
+}
+.headright {
+  position: absolute;
+  height: 60px;
+  margin-left: 1005px;
+  margin-top: 19px;
+}
+
+.demo {
+  font-family: Tahoma;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.navbar {
+  height: 100px;
+  width: 20px;
+  min-width: 600px;
+  display: flex;
+  /align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  font-family: Tahoma;
+  margin-top: 30px;
+  margin-left: 430px;
+  position: absolute;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins" sans-serif;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 0.3 px;
+}
+
+a:after {
+  content: "";
+  position: absolute;
+  /*background-color:red; */
+  height: 2px;
+  width: 0%;
+  left: 0%;
+  top: 19px;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+a:hover:after {
+  width: 100%;
+}
+a:hover {
+  color: red;
+}
+
+.bottomerrow {
+  height: 30px;
+  position: absolute;
+}
+
+.c {
+  border: 2px solid black;
+  /background: black;
+  height: 730px;
+  width: 94%;
+  margin-left: 47px;
+  margin-top: px;
+  position: absolute;
+}
+
+.watchtheme4 {
+  /position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.imgtext1 {
+  /font-family: Bell MT;
+  font-family: Tahoma;
+  position: absolute;
+  top: 23.5%;
+  left: 65%;
+  font-size: 55px;
+  /color: #5fb8c1;
+  color: white;
+}
+.imgtext2 {
+  font-family: Tahoma;
+  position: absolute;
+  top: 49%;
+  left: 65.3%;
+  /font-size: 55px;
+  color: lightgray;
+}
+
+input[type="button"] {
+  font-family: Tahoma;
+  background: transparent;
+  border: 2px solid white;
+  position: absolute;
+  margin-left: 65.3%;
+  margin-top: 29.5%;
+  height: 45px;
+  width: 140px;
+  color: white;
+  cursor: pointer;
+}
+
+.d {
+  border: 0px solid black;
+  /background: black;
+  height: 600px;
+  width: 94%;
+  margin-left: 47px;
+  margin-top: 733px;
+  position: relative;
+  display: block;
+  padding: 3px 0px;
+}
+
+.headingtext1 {
+  font-family: system-ui;
+  font-size: 40px;
+  margin-left: 35%;
+  margin-top: 8%;
+  font-weight: bold;
+}
+
+.watchtheme {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 0px;
+  margin-top: 30px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.watchtheme1 {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 495px;
+  margin-top: 30px;
+}
+
+.watchtheme2 {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 985px;
+  margin-top: 30px;
+}
+
+.watchtheme:hover {
+  background-size: 150%;
+  background-position: center;
+  height: 299px;
+  width: 449px;
+  margin-left: -0px;
+  transition: 0.3s;
+  cursor: pointer;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.watchtheme1:hover {
+  background-size: 150%;
+  background-position: center;
+  height: 299px;
+  width: 449px;
+  margin-left: 495px;
+  transition: 0.3s;
+  cursor: pointer;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.watchtheme2:hover {
+  background-size: 150%;
+  background-position: center;
+  height: 299px;
+  width: 449px;
+  margin-left: 985px;
+  transition: 0.3s;
+  cursor: pointer;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.textt1 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.textt2 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 498px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.textt3 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 988px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.e {
+  border: 0px solid black;
+  /background: black;
+  height: 750px;
+  width: 94%;
+  margin-left: 47px;
+  margin-top: 40px;
+  position: relative;
+  display: block;
+  padding: 3px 0px;
+}
+
+.headingtext2 {
+  font-family: system-ui;
+  font-size: 40px;
+  margin-left: 35%;
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+.trendingnow {
+  /border: 0px solid;
+  /background: black;
+  height: 500px;
+  width: 18%;
+  /margin-left: 47px;
+  margin-top: 50px;
+  position: relative;
+  display: block;
+  padding: 3px 11px;
+  display: inline-block;
+}
+
+.trendingnow1 {
+  position: absolute;
+  height: 60%;
+  width: 85%;
+  margin-top: 42px;
+  margin-left: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.trendingnow2 {
+  position: absolute;
+  height: 60%;
+  width: 85%;
+  margin-top: 42px;
+  margin-left: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.trendingnow3 {
+  position: absolute;
+  height: 60%;
+  width: 85%;
+  margin-top: 42px;
+  margin-left: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.trendingnow4 {
+  position: absolute;
+  height: 60%;
+  width: 85%;
+  margin-top: 42px;
+  margin-left: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+.trendingnow:hover {
+  height: 500px;
+  width: 18%;
+  box-shadow: 0 0 9px 4px rgb(240, 236, 236);
+  /*rgba(0,140,186,0.5);*/
+}
+
+.trendingnow1:hover {
+  height: 65%;
+  width: 95%;
+  margin-left: -0px;
+  transition: 0.5s;
+  /box-shadow: 0 0 20 px 4px lightgray;
+}
+
+.trendingnow2:hover {
+  height: 65%;
+  width: 95%;
+  margin-left: -0px;
+  transition: 0.5s;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.trendingnow3:hover {
+  height: 65%;
+  width: 95%;
+  margin-left: -0px;
+  transition: 0.5s;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.trendingnow4:hover {
+  height: 65%;
+  width: 95%;
+  margin-left: -0px;
+  transition: 0.5s;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.trendingnow5:hover {
+  height: 65%;
+  width: 95%;
+  margin-left: -0px;
+  transition: 0.5s;
+  /box-shadow: 0 0 20px 4px lightgray;
+}
+
+.trendingnow5 {
+  position: absolute;
+  height: 60%;
+  width: 85%;
+  margin-top: 42px;
+  margin-left: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.watchname1 {
+  font-family: system-ui;
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 70px;
+}
+
+.watchname2 {
+  font-family: system-ui;
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 348px;
+}
+
+.watchname3 {
+  font-family: system-ui;
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 600px;
+}
+
+.watchname4 {
+  font-family: system-ui;
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 880px;
+}
+
+.watchname5 {
+  font-family: system-ui;
+  position: absolute;
+  margin-top: 485px;
+  margin-left: 1170px;
+}
+
+.f {
+  border: 0px solid black;
+  height: 900px;
+  width: 1425px;
+  margin-left: 47px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.f1 {
+  border: 0px solid black;
+  height: 700px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.f2 {
+  border: 0px solid black;
+  height: 700px;
+  width: 750px;
+  margin-left: 650px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.watchcta {
+  position: absolute;
+  height: 650px;
+  margin-left: 10px;
+}
+
+.texxtt1 {
+  font-family: Bell MT;
+  /font-family: system-ui;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 58px;
+  /color: #5fb8c1;
+  font-weight: bold;
+}
+.texxtt2 {
+  /font-family: Bell MT;
+  font-family: system-ui;
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  color: gray;
+  font-size: 16px;
+  /color: #5fb8c1;
+}
+
+/*input[type=submit]*/
+.texxtt {
+  font-family: Tahoma;
+  background: black;
+  border: 2px solid black;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 82%;
+  height: 45px;
+  width: 140px;
+  color: white;
+  cursor: pointer;
+}
+
+.g {
+  border: 0px solid black;
+  position: absolute;
+  height: 600px;
+  width: 1400px;
+  margin-left: 60px;
+  margin-top: 860px;
+}
+
+.watchtheme6 {
+  height: 600px;
+  width: 1400px;
+  /position: relative;
+}
+
+/*.button22{
+			font-family:Tahoma;
+			background:transparent;
+			border:2px solid transparent;
+			position:absolute;
+			margin-left:45%;
+			margin-top:0%;
+			height:45px;
+			width:140px;
+			color:black;
+		}*/
+.button22 {
+  /font-family: Tahoma;
+  font-family: system-ui;
+  background: transparent;
+  border: 2px solid #b3dfdd;
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 26%;
+  height: 45px;
+  width: 140px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button22:hover {
+  font-family: system-ui;
+  background: #b3dfdd;
+  color: black;
+  border-color: transparent;
+  font-size: 20px;
+}
+.imgtext111 {
+  /font-family: Bell MT;
+  font-family: system-ui;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  color: #b3dfdd;
+}
+
+.imgtext222 {
+  /font-family: Bell MT;
+  font-family: system-ui;
+  position: absolute;
+  top: 49%;
+  left: 3%;
+  color: white;
+  font-size: 16px;
+  color: #b3dfdd;
+}
+
+.h {
+  border: 0px solid black;
+  /background: black;
+  height: 800px;
+  width: 94%;
+  margin-left: 47px;
+  margin-top: 1463px;
+  position: relative;
+  display: block;
+  padding: 3px 0px;
+}
+
+.headingtext11 {
+  font-family: system-ui;
+  font-size: 40px;
+  margin-left: 35%;
+  margin-top: 8%;
+  font-weight: bold;
+}
+
+.journal1 {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 0px;
+  margin-top: 30px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.journal2 {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 495px;
+  margin-top: 30px;
+}
+
+.journal3 {
+  position: absolute;
+  height: 290px;
+  width: 440px;
+  margin-left: 985px;
+  margin-top: 30px;
+}
+
+/*.watchtheme:hover{
+			background-size:150%;
+			background-position:center;
+			
+		}*/
+
+.discripttext1 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.discripttext2 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 498px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.discripttext3 {
+  font-family: system-ui;
+  position: absolute;
+  margin-left: 988px;
+  margin-top: 340px;
+  font-size: 22px;
+  /font-weight: bold;
+}
+
+.textaera1 {
+  border: 0px solid;
+  position: absolute;
+  width: 438px;
+  margin-left: 50px;
+  margin-top: -280px;
+}
+
+.line1 {
+  font-family: system-ui;
+}
+
+.line2 {
+  font-family: system-ui;
+  font-weight: bold;
+}
+.line3 {
+  font-family: system-ui;
+  color: lightslategrey;
+}
+
+.textaera2 {
+  border: 0px solid;
+  position: absolute;
+  width: 438px;
+  margin-left: 549px;
+  margin-top: -280px;
+}
+
+.textaera3 {
+  border: 0px solid;
+  position: absolute;
+  width: 438px;
+  margin-left: 1039px;
+  margin-top: -280px;
+}
+
+.emailbox {
+  border: 0px solid green;
+  height: 300px;
+  height: 280px;
+  background-color: black;
+}
+
+.emailhead {
+  color: aliceblue;
+  font-family: Tahoma;
+  margin-left: 580px;
+  margin-top: 90px;
+  position: absolute;
+}
+
+.subscribe {
+  color: white;
+  font-family: Tahoma;
+  margin-left: 997px;
+  margin-top: -33px;
+}
+input[type="email"] {
+  /*border-color: white;
+			border-bottom: 2px solid rgb(141, 63, 63);
+			border: none;
+			margin-left:600px;
+			margin-top: 170px;
+			background-color:black;
+			color: aliceblue;*/
+
+  font-family: Tahoma;
+  font-size: 17px;
+  width: 630px;
+  margin-left: 450px;
+  margin-top: 180px;
+  padding: 12px 0px;
+  border: none;
+  color: white;
+  border-bottom: 2px solid lightgray;
+  background-color: black;
+  /position: absolute;
+}
+
+.discriptpart {
+  height: 425px;
+  width: auto;
+}
+
+.about {
+  border: 2px solid;
+}
